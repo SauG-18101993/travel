@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.body, .html{
+    overflow-x: hidden;
+}
 /* Navbar Starts */
 .nav_ul{
     width:100%;
@@ -11,7 +14,7 @@
 .img_l{
     width:115px;
     height:34px;
-    margin-left:146px;
+    margin-left:67px;
     margin-top:58px;
 }
 .nav_ul{
@@ -176,37 +179,32 @@
 /* Media Queries starts */
 @media (max-width: 992px) {
     .navbar-collapse {
-        background: rgba(255, 255, 255, 0.95);
+        /* background: rgba(255, 255, 255, 0.95); */
         text-align: center;
         padding: 10px;
     }
-    
     .nav_ul {
         flex-direction: column;
-        gap: 15px;
     }
-
     .btn-outline-dark {
         width: 100%;
     }
 }
-
 @media (max-width: 768px) {
     .navbar {
         padding: 10px;
     }
-
     .img_l {
         width: 100px;
     }
 }
 @media (max-width: 992px) {
     .para_1 {
-        font-size: 40px;
+        font-size: 20px;
     }
-
     .para_2 {
-        font-size: 14px;
+        font-size: 10px;
+        padding-top:100px;
     }
 
     .btn_1 {
@@ -216,14 +214,33 @@
     .img_3 {
         max-width: 350px;
     }
+    .fig-2{
+        width:330px;
+        height:330px;
+        margin-top:-198px;
+    }
+    .img_2{
+        width: 200px;
+        height: 12px;
+        margin-top: 93px;
+        margin-left: 172px;
+    }
+    .img_3{
+        margin-left:909px;
+        margin-top:-56px;
+    }
+    .fig-3, .fig-4 {
+        width: 60px;
+        height: 40px;
+        margin-left: -108px;
+        margin-top: 945px;
+    }
 }
-
 @media (max-width: 768px) {
     .para_1 {
-        font-size: 32px;
+        font-size: 20px;
         text-align: center;
     }
-
     .para_2 {
         text-align: center;
     }
@@ -235,7 +252,7 @@
 
     .img_2 {
         width: 200px;
-        display: block;
+        display: none;
         margin: 10px auto;
     }
 
@@ -253,7 +270,6 @@
     .easy_section {
         text-align: center;
     }
-
     .step {
         margin-top: 20px;
     }
@@ -264,6 +280,18 @@
 
     .img-travel {
         max-width: 300px;
+    }
+    .img_4 {
+        padding-left:200px;
+    }
+    .fig_2 {
+        padding-left:200px;
+    }
+    .fig_3{
+        padding-left:200px;
+    }
+    .img_8 {
+        margin-right:800px;
     }
 }
 
@@ -284,9 +312,8 @@
     .footer_section {
         text-align: center;
     }
-
-    .social-icon, .app-icon {
-        width: 35px;
+    .img_9, .img_10, .img_11 {
+        margin-right:700px;
     }
 }
 
